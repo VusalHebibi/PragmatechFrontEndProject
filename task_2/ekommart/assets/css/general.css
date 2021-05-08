@@ -1,0 +1,76 @@
+:root {
+    --primary: #ef3636;
+    --primary_hover: #D93131;
+    --secondary: #ef3636;
+    --text: #626262;
+    --accent: #000;
+    --light: #888;
+    --dark: #252525;
+    --border: #ebebeb;
+    --background: #fff;
+
+    --transition-common: all 0.5s ease;
+
+
+    --e-global-color-primary: #EF3636;
+    --e-global-color-secondary: #EF3636;
+    --e-global-color-text: #626262;
+    --e-global-color-accent: #000;
+    --e-global-color-5b8716ea: #888;
+    --e-global-color-2446596b: #EBEBEB;
+    --e-global-color-3c9b883a: #252525;
+    --e-global-color-9e72934: #FFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+body {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 14px;
+    /* overflow: hidden; */
+    line-height: 1.618;
+}
+
+.commoon-container {}
+
+.d--flex {
+    display: flex;
+}
+
+.d--flex_justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.d--flex_align-items-center {
+    display: flex;
+    align-items: center;
+}
+
+.d--flex_justify_align_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cursor--pointer {
+    cursor: pointer;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.text_start {
+    text-align: start;
+}
+
+.text_end {
+    text-align: end;
+}

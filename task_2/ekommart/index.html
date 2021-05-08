@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet"
+        href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/general.css">
+    <link rel="stylesheet" href="./assets/css/search.css">
+    <title>Ekommart</title>
+</head>
+
+<body>
+
+    <!-- Header Section -->
+    <header class="header">
+        <div class="header-section-ekommart d--flex">
+            <div class="header_ekommart_section_left d--flex_justify_align_center">
+                <div class="ekommart_section_logo">
+                    <img src="/assets/svg/asset 0.svg" style="width:160px; height: auto;" alt="">
+                </div>
+            </div>
+
+            <div class="header_ekommart_section_right">
+                <div class="ekommart_element_populated_top d--flex">
+                    <div class="ekommart_element_search">
+                        <form class="ekommart_element_search_form">
+                            <label for="1_icon">
+                                <i class="las la-search cursor--pointer"></i>
+                            </label>
+                            <input id="1_icon" type="text" class="ekommart_element_input"
+                                placeholder="Search Products...">
+                            <button type="button" class="ekommart_element_btn cursor--pointer">Search</button>
+                        </form>
+                    </div>
+
+                    <div class="ekommart_element_us_free">
+                        <span>+84 800 456 789</span>
+                        <span>CALL US FREE</span>
+                    </div>
+
+                    <div class="ekommart_element_orders_over">
+                        <span>FREE SHIPPING</span>
+                        <span>ON ORDERS OVER $150.0 0</span>
+                    </div>
+
+                    <div class="ekommart_element_action d--flex_justify-content-center">
+                        <div class="ek_section_account">
+                            <i class="far fa-user cursor--pointer"></i>
+
+                            <div class="account_dropdown">
+                                <div class="login_form_head">
+                                    <span>Sign in</span>
+                                    <span>Create an Account</span>
+                                </div>
+
+                                <form class="ekommart_login_form_ajax">
+                                    <label for="2_icon">
+                                        Username or email
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" id="2_icon" placeholder="Username">
+
+                                    <label for="3_icon">
+                                        Password
+                                        <span>*</span>
+                                    </label>
+                                    <input type="text" id="3_icon" placeholder="Password">
+
+                                    <button type="submit">LOGIN</button>
+                                </form>
+
+                                <div class="login_form_bottom cursor--pointer">Lost your password?</div>
+                            </div>
+                        </div>
+
+                        <div class="ek_section_wishlist">
+                            <i class="far fa-heart cursor--pointer"></i>
+                        </div>
+
+                        <div class="ek_section_cart">
+                            <i class="las la-box-open cursor--pointer"></i>
+                        </div>
+
+                        <div class="ek_section_value">$0.00</div>
+                    </div>
+                </div>
+
+                <div class="ekommart_element_popular_bottom">
+                    <div class="ekommart_main_navigation">
+                        <nav class="ekomart_nav_menu_wrapper">
+                            <ul class="ekommart_main_menu d--flex_align-items-center">
+                                <li class="menu_item menu_item_first1_dropdown">
+                                    <a href="#" class="menu_link a_before">Home</a>
+
+                                    <div class="item_first1_dropdown">
+                                        <ul class="sum_menu mega_menu">
+                                            <section class="section_1_menu elementor_section">
+                                                <div class="section_1_images text_center">
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_1_img image_width">
+                                                            <img src="./assets/img/asset 1.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Sports & Outdoors
+                                                            <span>01</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_2_img image_width">
+                                                            <img src="./assets/img/asset 2.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Toys & Kids
+                                                            <span>02</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_3_img image_width">
+                                                            <img src="./assets/img/asset 3.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Electronics & Computer
+                                                            <span>01</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_4_img image_width">
+                                                            <img src="./assets/img/asset 4.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Marketplace 01
+                                                            <span>01</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_5_img image_width">
+                                                            <img src="./assets/img/asset 5.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Food & Grocery 02
+                                                            <span>02</span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+
+
+
+                                            <section class="section_2_menu">
+                                                <div class="section_2_images text_center">
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_1_img image_width">
+                                                            <img src="./assets/img/asset 6.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Sports & Outdoors
+                                                            <span>01</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_2_img image_width">
+                                                            <img src="./assets/img/asset 7.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Toys & Kids
+                                                            <span>02</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_3_img image_width">
+                                                            <img src="./assets/img/asset 8.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Electronics & Computer
+                                                            <span>01</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_4_img image_width">
+                                                            <img src="./assets/img/asset 9.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Marketplace 01
+                                                            <span>01</span>
+                                                        </h2>
+                                                    </div>
+
+                                                    <div class="elementor_col_20">
+                                                        <div class="elementor_section_5_img image_width">
+                                                            <img src="./assets/img/asset 10.jpeg" alt="">
+                                                        </div>
+
+                                                        <h2 class="elementor_heading_title">
+                                                            Food & Grocery 02
+                                                            <span>02</span>
+                                                        </h2>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+                                            <div class="elementor_mega_btn">
+                                                <button class="mega_btn cursor--pointer">View All Demos (23)</button>
+                                            </div>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="menu_item"><a href="#" class="menu_link">About</a></li>
+
+                                <li class="menu_item menu_item_second2_dropdown">
+                                    <a href="#" class="menu_link a_before position_relative">Shop</a>
+
+                                    <div class="item_second2_dropdown">
+                                        <ul class="elementor_section_boxs">
+                                            <section class="elementor_top_section">
+                                                <div class="elementor_container_info">
+                                                    <h2 class="info_title">Shop layouts</h2>
+                                                    <span class="info_line_bottom"></span>
+
+                                                    <div class="info_list new_item">
+                                                        <li><a href="#">Shop fullwidth</a></li>
+
+                                                        <li><a href="#">Shop left sidebar</a></li>
+
+                                                        <li><a href="#">Shop right sidebar</a></li>
+
+                                                        <li><a href="#"><strong>Dokan store list</strong> <sup
+                                                                    style="color: #d52f40;">NEW</sup></a></li>
+
+                                                        <li><a href="#"><strong>Dokan vendor store </strong><sup
+                                                                    style="color: #d52f40;">NEW</sup></a></li>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="elementor_container_info">
+                                                    <h2 class="info_title">Product Style</h2>
+                                                    <span class="info_line_bottom"></span>
+
+                                                    <div class="info_list">
+                                                        <li><a href="#">Product Style 1</a></li>
+
+                                                        <li><a href="#">Product Style 2</a></li>
+
+                                                        <li><a href="#">Product Style 3</a></li>
+
+                                                        <li><a href="#">Product Style 4</a></li>
+
+                                                        <li><a href="#">Product Style 5</a></li>
+                                                    </div>
+                                                </div>
+
+
+                                                <div class="elementor_container_info">
+                                                    <h2 class="info_title">Product Pages</h2>
+                                                    <span class="info_line_bottom"></span>
+
+                                                    <div class="info_list">
+                                                        <li><a href="#">Simple Product</a></li>
+
+                                                        <li><a href="#">Variable Product</a></li>
+
+                                                        <li><a href="#">Group Product</a></li>
+
+                                                        <li><a href="#">Affiliate Product</a></li>
+
+                                                        <li><a href="#">Single Product Style</a></li>
+                                                    </div>
+                                                </div>
+                                            </section>
+
+
+                                            <section class="elementor_bottom_section">
+                                                <div class="elementor_container_info">
+                                                    <h2 class="info_title">Product Style</h2>
+                                                    <span class="info_line_bottom"></span>
+
+                                                    <div class="info_list">
+                                                        <li><a href="#">Cart</a></li>
+
+                                                        <li><a href="#">Checkout</a></li>
+
+                                                        <li><a href="#">My account</a></li>
+
+                                                        <li><a href="#">Order tracking</a></li>
+
+                                                        <li><a href="#">Wishlist</a></li>
+                                                    </div>
+                                                </div>
+
+                                                <div class="elementor_row" style="padding-top: 50px;">
+                                                    <span>PREMIUM SUPPLEMENT</span>
+
+                                                    <div class="elementor_focus">
+                                                        <h2 class="elementor_focus_background">
+                                                            Widht a focus on
+                                                            <br>
+                                                            <strong style="font-weight: 600">Purity & Quality</strong>
+                                                        </h2>
+                                                    </div>
+
+                                                    <button type="submit"
+                                                        class="elementor_shop_btn cursor--pointer">Shop now</button>
+                                                </div>
+                                            </section>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="menu_item menu_item_third3_dropdown">
+                                    <a href="#" class="menu_link a_before">Blog</a>
+
+                                    <div class="item_third3_dropdown">
+                                        <ul class="sub_menu">
+                                            <li class="sub_menu_item"><a href="#" class="items">Blog – Gallery View</a>
+                                            </li>
+                                            <li class="sub_menu_item"><a href="#" class="items">Blog – Grid View</a>
+                                            </li>
+                                            <li class="sub_menu_item"><a href="#" class="items">Blog – No Image</a></li>
+                                            <li class="sub_menu_item"><a href="#" class="items">Blog – Standard</a></li>
+                                            <li class="sub_menu_item"><a href="#" class="items">Blog – Modern</a></li>
+                                            <li class="sub_menu_item"><a href="#" class="items">Single Post</a></li>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="menu_item menu_item_fourth4_dropdown">
+                                    <a href="#" class="menu_link a_before">Pages</a>
+
+                                    <div class="item_fourth4_dropdown">
+                                        <ul class="custom_subwidth">
+                                            <section class="fourth4_section_wrap d--flex">
+                                                <div class="fourth4_wp_post">
+                                                    <h2 class="info_title">Pre-built Pages</h2>
+                                                    <span class="info_line_bottom"></span>
+
+                                                    <div class="info_list new_item">
+                                                        <li><a href="#">About Us</a></li>
+                                                        <li><a href="#">FAQ</a></li>
+                                                        <li><a href="#">404 Page</a></li>
+                                                        <li><a href="#">Login</a></li>
+                                                        <li><a href="#">Shipping Method</a></li>
+                                                        <li><a href="#">Payment Method</a></li>
+                                                        <li><a href="#">Order Tracking</a></li>
+                                                    </div>
+                                                </div>
+
+                                                <div class="elementor_row"
+                                                    style="padding-top: 50px; padding-left: 90px;">
+                                                    <span>BEST SELLERS</span>
+
+                                                    <div class="elementor_focus">
+                                                        <h2 class="elementor_focus_background">
+                                                            Kitchen
+                                                            <br>
+                                                            <strong style="font-weight: 600">& Dinning</strong>
+                                                        </h2>
+                                                    </div>
+
+                                                    <button type="submit"
+                                                        class="elementor_shop_btn cursor--pointer">Shop now</button>
+                                                </div>
+                                            </section>
+                                        </ul>
+                                    </div>
+                                </li>
+
+                                <li class="menu_item"><a href="#" class="menu_link">Contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!--  End Header Section -->
+
+    <!-- 1-Section -->
+    <section class="section-1 d--flex">
+        <div class="section-1_arror_left cursor--pointer">
+            <i class="fas fa-chevron-left"></i>
+        </div>
+
+        <div class="section-1_col_full">
+            <div class="section-1_prumary" style="position: absolute;">
+                <span class="dot_1">NIKE-MEW ARRIVALS</span>
+                <h1 class="section-1_title">AIR MAX <br> PEGASUS 35 ID</h1>
+                <span class="dot_2">$190</span>
+                <button type="submit" class="section-1_btn cursor--pointer"><span>Show Now</span></button>
+            </div>
+        </div>
+
+        <div class="wave">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+                <path fill="#47454b" fill-opacity="1"
+                    d="M0,256L120,256C240,256,480,256,720,240C960,224,1200,192,1320,176L1440,160L1440,0L1320,0C1200,0,960,0,720,0C480,0,240,0,120,0L0,0Z">
+                </path>
+            </svg>
+        </div>
+
+        <div class="section-1_arror_right cursor--pointer">
+            <i class="fas fa-chevron-right"></i>
+        </div>
+
+    </section>
+    <!-- End 1-Section -->
+
+
+    <!-- 2-Section -->
+    <section class="elementor_section_absolute d--flex">
+        <div class="section_absolute-1" style="width: 860px; padding: 70px 100px;">
+
+            <div class="elementor_row">
+                <span>40% OFF</span>
+
+                <div class="elementor_focus">
+                    <h2 class="elementor_focus_background">
+                        STYLE MEETS
+                        <br>
+                        <strong style="font-weight: 600">SUBSTANCE</strong>
+                    </h2>
+                </div>
+
+                <p>Breathable perforated toe stiched stealth</p>
+
+                <button type="submit" class="elementor_shop_btn cursor--pointer">Find Your Shoe</button>
+            </div>
+
+        </div>
+
+        <div class="section_absolute-2" style="width: 430px; padding: 45px 50px;">
+
+
+            <div class="elementor_row">
+
+                <span>50% OFF</span>
+
+                <div class="elementor_focus">
+                    <h2 class="elementor_focus_background">
+                        ENERGY TAKES
+                        <br>
+                        <strong style="font-weight: 600">OVER</strong>
+                    </h2>
+                </div>
+
+                <button type="submit" class="elementor_shop_btn cursor--pointer">View Campaign</button>
+
+            </div>
+        </div>
+    </section>
+    <!-- End 2-Section -->
+
+
+    <!-- 3-Section -->
+    <section class="section-3">
+        <div class="elementor_section_stretched">
+            <h2 class="section_stretched_title">FEATURE PRODUCTS</h2>
+            <p class="section_stretched_text">Visit our shop to see amazing products</p>
+        </div>
+
+        <div class="section-3_elementor_section">
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 15.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 17.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 19.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 21.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 31.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="section-3_elementor_section">
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 25.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 27.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 29.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 23.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+
+            <div class="section-3_colums_5">
+                <div class="section-3_type_products_images">
+                    <img src=".//assets/img/asset 33.jpeg" alt="">
+                </div>
+
+                <div class="products_block">
+                    <span class="posted_in">Shoes</span>
+                    <h3 class="product_title">Nike Daybreak</h3>
+                    <span class="price" style="display: block;">$145.93</span>
+                    <button type="submit" class="product_type_btn cursor--pointer">Buy Product</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End 3-Section -->
+
+    <!-- 4-Section -->
+    <section class="section-4">
+        <div class="elementor-container--4 d--flex">
+            <div class="section-4_elementor_boxed" style="width 645px;">
+                <div class="elementor_populated_image">
+                    <img src="./assets/img/asset 35.jpeg" alt="">
+                </div>
+
+                <div class="elementor_row">
+
+                    <span>ONLY THIS WEEK</span>
+
+                    <div class="elementor_focus">
+                        <h2 class="elementor_focus_background">
+                            BEST SELLING
+                        </h2>
+                    </div>
+
+                    <p>get the discount of 25%</p>
+                </div>
+            </div>
+
+            <div class="elementor_element_colums" style="display: flex; flex-direction: column">
+                <div class="elementor_element_01">
+                    <div class="elementor_col_10" style="position: relative;">
+                        <div class="col_10_image" style="line-height 0;">
+                            <img src=".//assets/img/asset 36.jpeg" alt="">
+                        </div>
+
+                        <div class="elementor_row" style="position: absolute;">
+                            <span>50% OFF</span>
+
+                            <div class="elementor_focus">
+                                <h2 class="elementor_focus_background">
+                                    PHANTOM VISION
+                                    <br>
+                                    <strong style="font-weight: 600">ACADEMY</strong>
+                                </h2>
+                            </div>
+
+                            <p>$195 <del>$390</del></p>
+
+                            <button type="submit" class="elementor_shop_btn cursor--pointer">Shom now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="elementor_element_02">
+                    <div class="elementor_col_20" style="position: relative;">
+                        <div class="col_20_image">
+                            <img src=".//assets/img/asset 37.jpeg" alt="">
+                        </div>
+
+                        <div class="elementor_row" style="position: absolute;">
+                            <span>30% OFF</span>
+
+                            <div class="elementor_focus">
+                                <h2 class="elementor_focus_background">
+                                    ODYSSEY REACT
+                                    <br>
+                                    <strong style="font-weight: 600">FLYKNIT 2</strong>
+                                </h2>
+                            </div>
+
+                            <p>$195 <del>$390</del></p>
+
+                            <button type="submit" class="elementor_shop_btn cursor--pointer">View Product</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End 4-Section -->
+
+    <!-- 5-Section -->
+    <section class="section-5 text_center">
+        <div class="elementor-container--5">
+            <h2 class="elementor-5_title">LATEST NEWS</h2>
+            <p class="elementor-5_text">Read our blog</p>
+
+            <div class="elementor-5_row d--flex">
+                <div class="element-5_column_item cursor--pointer">
+                    <div class="element-5_slick_inner">
+                        <div class="slick_slide">
+                            <div class="slick_slide_image">
+                                <img src=".//assets/img/asset 38.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="element-5_post_header_content">
+                            <span class="categories_link cursor--pointer">Uncatogorized</span>
+                            <h2 class="entry_title cursor--pointer">Drew Every Life a Little Rain Must Fall</h2>
+                        </div>
+                    </div>
+
+                    <div class="entry_meta cursor--pointer">
+                        <span class="posthed_on">January 13, 2020</span>
+                        <span class="posthed_outhor">* by admin</span>
+                    </div>
+                </div>
+
+
+                <div class="element-5_column_item cursor--pointer">
+                    <div class="element-5_slick_inner">
+                        <div class="slick_slide">
+                            <div class="slick_slide_image">
+                                <img src=".//assets/img/asset 39.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="element-5_post_header_content">
+                            <span class="categories_link cursor--pointer">Uncatogorized</span>
+                            <h2 class="entry_title cursor--pointer">Drew Every Life a Little Rain Must Fall</h2>
+                        </div>
+                    </div>
+
+                    <div class="entry_meta cursor--pointer">
+                        <span class="posthed_on">January 13, 2020</span>
+                        <span class="posthed_outhor">* by admin</span>
+                    </div>
+                </div>
+
+
+                <div class="element-5_column_item cursor--pointer">
+                    <div class="element-5_slick_inner">
+                        <div class="slick_slide">
+                            <div class="slick_slide_image">
+                                <img src=".//assets/img/asset 40.jpeg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="element-5_post_header_content">
+                            <span class="categories_link cursor--pointer">Uncatogorized</span>
+                            <h2 class="entry_title cursor--pointer">Drew Every Life a Little Rain Must Fall</h2>
+                        </div>
+                    </div>
+
+                    <div class="entry_meta cursor--pointer">
+                        <span class="posthed_on">January 13, 2020</span>
+                        <span class="posthed_outhor">* by admin</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End 5-Section -->
+
+</body>
+
+</html>
